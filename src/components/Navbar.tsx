@@ -8,7 +8,7 @@ const Navbar = () => {
     const [dropdown, setDropdown] = useState(true);
 
     return(
-        <nav className="flex bg-[#015486] h-12 w-full text-white px-12 place-items-center content-center">
+        <nav className="fixed top-0 left-0 z-10 w-full bg-[#015486] h-12 text-white px-12 flex items-center">
             <div className="flex w-1/2 justify-start">
                 <img className="w-16" src="./pHbot-semfundo.png" alt="teste" />
             </div>
