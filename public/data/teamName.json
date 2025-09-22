@@ -1,0 +1,22 @@
+[
+    {
+        "image": "./data/perfil/gusta.jpg",
+        "name": "Gustavo Antonio Palaro"
+    },
+    {
+        "image": "./data/perfil/joao.jpg",
+        "name": "João Carlos Fagundez"
+    },
+    {
+        "image": "./data/perfil/",
+        "name": "Rafael Sutil da Costa"
+    },
+    {
+        "image": "./data/perfil/",
+        "name": "Matheus Beltrame"
+    },
+    {
+        "image": "./data/perfil/",
+        "name": "Matheus Zucchi"
+    }
+]
