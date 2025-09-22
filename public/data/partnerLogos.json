@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Noctua",
+        "image": "./logos/logo-noctua.png"
+    },
+    {
+        "name": "ITECPB",
+        "image": "./logos/logo-itecpb.png"
+    },
+    {
+        "name": "SMCTI",
+        "image": "./logos/logo-smcti.png"
+    },
+    {
+        "name": "Unidep",
+        "image": "./logos/logo-unidep.png"
+    },
+    {
+        "name": "UTFPR",
+        "image": "./logos/logo-utfpr.png"
+    }
+]

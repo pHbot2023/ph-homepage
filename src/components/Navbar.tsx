@@ -10,20 +10,20 @@ const Navbar = () => {
     return(
         <nav className="fixed top-0 left-0 z-10 w-full bg-[#015486] h-12 text-white px-12 flex items-center">
             <div className="flex w-1/2 justify-start">
-                <img className="w-16" src="./pHbot-semfundo.png" alt="teste" />
+                <img className="w-16" src="./pHbot-logo.png" alt="teste" />
             </div>
-            <div className="sm:flex hidden w-1/2 justify-end">
+            <div className="md:flex hidden w-1/2 justify-end">
                 {Object.values(navItems).map((item, index) => (
                     <a key={index} href={item.href} className="px-2 hover:cursor-pointer">
                         {item.name}
                     </a>
                 ))}
             </div>
-            <div className="sm:hidden w-1/2 justify-items-end" onClick={() => setDropdown(!dropdown)}>
+            <div className="md:hidden w-1/2 justify-items-end" onClick={() => setDropdown(!dropdown)}>
              <AiOutlineMenu className='lg:hidden flex text-white hover:cursor-pointer'/>   
             </div>
             {dropdown ? (
-                <div className="sm:hidden absolute right-10 top-10 justify bg-white drop-shadow-sm h-fit rounded-lg text-black">
+                <div className="md:hidden absolute right-10 top-10 justify bg-white drop-shadow-sm h-fit rounded-lg text-black">
                     {Object.values(navItems).map((item, index) => (
                     <a key={index} onClick={() => setDropdown(!dropdown)} href={item.href} className="flex w-full rounded-sm hover:bg-[#015486] hover:text-white p-2 hover:cursor-pointer">
                         {item.name}

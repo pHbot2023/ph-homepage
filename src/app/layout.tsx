@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "pHbot",
   description: "Home page da pHbot",
   icons: {
-    icon: "./pHbot-semfundo.png",
+    icon: "./pHbot-icon.png",
   }
 };
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
