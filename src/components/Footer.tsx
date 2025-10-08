@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-[#015486] h-fit text-white p-6 justify-between">
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-[#1f2f4f] h-fit text-white p-6 justify-between">
       <div className="w-fit p-4">
         <img src="./pHbot-logo.png" alt="" />
       </div>

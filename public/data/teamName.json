@@ -8,15 +8,15 @@
         "name": "João Carlos Fagundez"
     },
     {
-        "image": "./data/perfil/",
+        "image": "./data/perfil/rafael.jpg",
         "name": "Rafael Sutil da Costa"
     },
     {
-        "image": "./data/perfil/",
+        "image": "./data/perfil/beltrame.jpg",
         "name": "Matheus Beltrame"
     },
     {
-        "image": "./data/perfil/",
+        "image": "./data/perfil/zucchi.jpg",
         "name": "Matheus Zucchi"
     }
 ]
