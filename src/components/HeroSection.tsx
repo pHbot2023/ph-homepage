@@ -6,7 +6,7 @@ const HeroSection = () => {
                 alt="teste"
                 className="w-full h-full object-cover pointer-events-none select-none"
             />
-            <div className="absolute inset-0 bg-[#8FD8FF]/50" />
+            <div className="absolute inset-0 " />
         </section>
     )
 }
