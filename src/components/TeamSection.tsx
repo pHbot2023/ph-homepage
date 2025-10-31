@@ -18,7 +18,7 @@ const TeamSection = () => {
               src={item.image}
               alt=""
             />
-            <p className="text-lg md:text-xl">{item.name}</p>
+            <p className="text-lg md:text-lg lg:text-xl">{item.name}</p>
           </div>
         ))}
       </div>

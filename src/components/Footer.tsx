@@ -13,10 +13,8 @@ const Footer = () => {
       </div>
       <div className="w-fit p-4">
         <p className="font-bold text-2xl">Redes sociais</p>
-        <p>@pHbot__</p>
-        <p>facebook</p>
-        <p>linkedin</p>
-        <p>youtube</p>
+        <a href="https://www.instagram.com/phbot__" target="_blank"><p>@pHbot__</p></a>
+        <a href="https://www.linkedin.com/company/phbot/posts/?feedView=all" target="_blank"><p>linkedin</p></a>
       </div>
       <div className="w-fit p-4">
         <p className="font-bold text-2xl">Informações Gerais</p>
